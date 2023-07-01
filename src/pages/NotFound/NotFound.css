@@ -1,0 +1,15 @@
+.notfound {
+  color: #1d3c5a;
+  padding: 10px;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.link {
+  padding: 10px;
+  text-decoration: none;
+  background-color: #fff;
+  border-radius: 10px;
+  font-weight: 600;
+  color: #153049;
+  margin-top: 10px;
+}
