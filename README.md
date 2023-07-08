@@ -32,9 +32,12 @@ To get started with Restaurant Explorer, follow these steps:
    
 ## Features
 - User-friendly interface: The SPA provides a clean and intuitive interface for users to enter the city and view the weather forecast.
+- Current weather display: View the current weather conditions, including temperature, humidity, wind speed, and a brief description.
+- 4-day forecast: Get a detailed forecast for the next 4 days, including temperature, weather description, and corresponding weather icons.
+- Search functionality: Enter the name of any city to retrieve its weather information.
 - Real-time weather data: The application fetches weather data from the OpenWeatherMap API to ensure accurate and up-to-date information.
 - Icon-based weather representation: The weather conditions are displayed using appealing icons, allowing users to quickly grasp the forecast at a glance.
 
 ## Project Background
 
-This project is based on the work of [Alex's](https://github.com/alexkowsik/react-weather-app) work, and I would like to acknowledge his contribution.
+This project is based on the work of [Alex's](https://github.com/alexkowsik/react-weather-app) work, and I would like to acknowledge his contribution. The application has been modified to use React functional components and React hooks for component implementation.
