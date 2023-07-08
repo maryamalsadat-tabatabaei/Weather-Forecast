@@ -1,70 +1,40 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Weather Forecast
 
-## Available Scripts
+This is a weather forecast single-page application (SPA) developed using React, React Router, CSS, and the OpenWeatherMap API. It allows users to enter a city name and displays the current weather as well as a 4-day forecast. The weather is presented using appealing icons to enhance the user experience.<br>
 
-In the project directory, you can run:
+**How it Works**
 
-### `npm start`
+The weather forecast SPA integrates with the OpenWeatherMap API to fetch weather data based on the user's input city. React components are used to render the weather information and icons dynamically. The application utilizes React Router for navigation between the home page and the weather forecast page.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+<img src="https://github.com/maryamalsadat-tabatabaei/Weather-Forecast/assets/87692864/aad6705e-a75b-472e-88e0-733edf5e3cbf" alt="Weather Form" width="30%" height="auto">
+<img src="https://github.com/maryamalsadat-tabatabaei/Weather-Forecast/assets/87692864/128b3e4f-b634-47e7-a0c6-15c0b1e908ae" alt="Weather Forecast" width="30%" height="auto">
+<img src="https://github.com/maryamalsadat-tabatabaei/Weather-Forecast/assets/87692864/945c27c8-3b1f-4123-ae49-4437236bfff2" alt="Weather Not Found Page" width="30%" height="auto">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Table of Contents
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [Installation](#installation)
+- [Features](#features)
+- [Project Background](#project-background)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Installation
+To get started with Restaurant Explorer, follow these steps:
 
-### `npm run eject`
+1. Clone the repository: `git clone https://github.com/maryamalsadat-tabatabaei/Weather-Forecast.git`
+2. Navigate to the project directory: `cd Weather-Forecast`
+3. Install dependencies: `npm install`
+4. Start the application: npm start
+5. Access the application in your browser at http://localhost:3000
+   
+## Features
+- User-friendly interface: The SPA provides a clean and intuitive interface for users to enter the city and view the weather forecast.
+- Real-time weather data: The application fetches weather data from the OpenWeatherMap API to ensure accurate and up-to-date information.
+- Icon-based weather representation: The weather conditions are displayed using appealing icons, allowing users to quickly grasp the forecast at a glance.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Project Background
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is based on the work of [Alex's](https://github.com/alexkowsik/react-weather-app) work, and I would like to acknowledge his contribution.
